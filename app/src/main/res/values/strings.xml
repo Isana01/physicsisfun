@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My Application</string>
+
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="title_activity_main5">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="title_activity_fragment">Fragment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="large_text">
+        "A simple pendulum consists of a mass m hanging from a string of length L and fixed at a pivot point.
+        When displaced to an initial angle and released, the pendulum will swing back and forth with periodic motion.
+        Its time period is calculated by\n
+                "T = 2π √ l/g\n
+                "where T = Time Period\n
+                "π = 3.147(the constant)\n
+                "√ = Square root\n
+                "l = length of the string\n
+                "g = gravity constant\n
+        "The only things that affect the period of a simple pendulum are its length and the acceleration due to gravity.
+        So these are the two parameters provided below so you may change them according to your desire in order to gain the concept"
+        
+    </string>
+    <string name="projectile">
+        By definition, a projectile has a single force that acts upon it - the force of gravity.
+        If there were any other force acting upon an object, then that object would not be a projectile.
+        Thus, the free-body diagram of a projectile would show a single force acting downwards and labeled force of gravity.\n
+        Many students have difficulty with the concept that the only force acting upon an upward moving projectile is gravity.
+        Their conception of motion prompts them to think that if an object is moving upward,
+        then there must be an upward force. And if an object is moving upward and rightward, there must be both an upward and rightward force.\n
+        A force is only required to maintain an acceleration. And in the case of a projectile that is moving upward,
+        there is a downward force and a downward acceleration. That is, the object is moving upward and slowing down.\n
+        Following here is the demonstration of a projectile that how it covers its time of flight by changing
+        the position of the projectile and hoe the gravity affects on it.
+    </string>
+    <string name="harmonic" tools:ignore="StringEscaping">
+        "In mechanics and physics, simple harmonic motion is a special type of periodic motion where the restoring force on the moving object is directly proportional to the objec
+        t\'s displacement magnitude and acts towards
+        the object's equilibrium position. It results in an oscillation which, if uninhibited
+        by friction or any other dissipation of energy, continues indefinitely.
+       Simple harmonic motion can serve as a mathematical model
+        for a variety of motions, but is typified by the oscillation of a mass on a spring when it is subject to
+        the linear elastic restoring force given by Hooke's law. The motion is sinusoidal in time and demonstrates a single resonant frequency"
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

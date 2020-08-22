@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "233668056615",
+    "firebase_url": "https://physics-is-fun.firebaseio.com",
+    "project_id": "physics-is-fun",
+    "storage_bucket": "physics-is-fun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233668056615:android:0cc0f3c098eaa04b0ba002",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233668056615-tkn16i788lr2ki1ioevfs3f9ussc3nct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNC0FiPUgHTqijF0R61ALZmY0jkBY9-OQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233668056615-tkn16i788lr2ki1ioevfs3f9ussc3nct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
