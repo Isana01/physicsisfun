@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if(email.getText().toString().equals("") || pass.getText().toString().equals("")){
 
-                    Toast.makeText(MainActivity.this, "Please Enter your details first", Toast.LENGTH_LONG);
+                    Toast.makeText(MainActivity.this, "Please Enter your details first", Toast.LENGTH_LONG).show();
 
                 }
                 else{
@@ -139,13 +139,13 @@ public class MainActivity extends AppCompatActivity {
 
         } else if (timeofday >= 16 && timeofday < 21) {
             //evening
-            constraintLayout.setBackground(getDrawable(R.drawable.abla));
+            constraintLayout.setBackground(getDrawable(R.drawable.desk));
             tvtime.setText("Good Evening");
 
         }
         else if(timeofday >= 21 && timeofday < 24){
             //night
-                constraintLayout.setBackground(getDrawable(R.drawable.abla));
+                constraintLayout.setBackground(getDrawable(R.drawable.desk));
 
             tvtime.setText("Good Night");
         }

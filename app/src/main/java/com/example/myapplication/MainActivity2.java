@@ -80,28 +80,28 @@ public class MainActivity2 extends AppCompatActivity {
                 reff.push().setValue(data);
 
 
-//                if(!pass.equals(repass)){
-//
-//                    Toast.makeText(MainActivity2.this, "Passwords do not match", Toast.LENGTH_LONG);
-//
-//                }
-//                else if(name.equals("")){
-//                    Toast.makeText(MainActivity2.this, "Please enter your name", Toast.LENGTH_LONG);
-//
-//                }
-//                else if(email.equals("")){
-//                    Toast.makeText(MainActivity2.this, "Please enter your email", Toast.LENGTH_LONG);
-//
-//                }
-//                else if(pass.equals("")){
-//                    Toast.makeText(MainActivity2.this, "Please enter the password", Toast.LENGTH_LONG);
-//
-//                }
-//                else if(repass.equals("")){
-//                    Toast.makeText(MainActivity2.this, "Please re enter the password", Toast.LENGTH_LONG);
-//
-//                }
-//                else {
+                if(!pass.equals(repass)){
+
+                    Toast.makeText(MainActivity2.this, "Passwords do not match", Toast.LENGTH_LONG).show();
+
+                }
+                else if(name.equals("")){
+                    Toast.makeText(MainActivity2.this, "Please enter your name", Toast.LENGTH_LONG).show();
+
+                }
+                else if(email.equals("")){
+                    Toast.makeText(MainActivity2.this, "Please enter your email", Toast.LENGTH_LONG).show();
+
+                }
+                else if(pass.equals("")){
+                    Toast.makeText(MainActivity2.this, "Please enter the password", Toast.LENGTH_LONG).show();
+
+                }
+                else if(repass.equals("")){
+                    Toast.makeText(MainActivity2.this, "Please re enter the password", Toast.LENGTH_LONG).show();
+
+                }
+                else {
 
 
 
@@ -126,7 +126,7 @@ public class MainActivity2 extends AppCompatActivity {
                     });
                 }
 
-            });
+            }});
 
 
         Calendar c = Calendar.getInstance();
@@ -143,15 +143,16 @@ public class MainActivity2 extends AppCompatActivity {
 
         } else if (timeofday >= 16 && timeofday < 21) {
             //evening
-            constraintLayout.setBackground(getDrawable(R.drawable.abla));
+            constraintLayout.setBackground(getDrawable(R.drawable.desk));
             tvtime.setText("Good Evening");
 
         }
         else if(timeofday >= 21 && timeofday < 24){
             //night
-            constraintLayout.setBackground(getDrawable(R.drawable.abla));
+            constraintLayout.setBackground(getDrawable(R.drawable.desk));
             tvtime.setText("Good Night");
         }
 //        getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
 
     }}
+

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:paddingTop="40dp"
     tools:openDrawer="start"
     android:id="@+id/drawer_layout"
     tools:context=".MainActivity">
@@ -36,6 +37,7 @@
         android:id="@+id/toolbar"
         />
 
+
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -50,6 +52,7 @@
         </ListView>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
+
 
 
 </androidx.drawerlayout.widget.DrawerLayout>

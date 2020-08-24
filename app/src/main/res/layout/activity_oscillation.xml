@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingTop="40dp"
     android:background="@drawable/abcd"
     tools:context=".Oscillation">
 
@@ -31,8 +32,17 @@
         </FrameLayout>
 
         <FrameLayout
+            android:id="@+id/pen"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            >
+
+        </FrameLayout>
+
+        <FrameLayout
             android:id="@+id/simulationFrame"
             android:layout_width="match_parent"
+            android:elevation="10dp"
             android:layout_height="250dp"
             >
 

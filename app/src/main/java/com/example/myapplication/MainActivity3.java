@@ -40,7 +40,7 @@ public class MainActivity3 extends AppCompatActivity implements NavigationView.O
     ListView lst;
     String[] fruitname = { "Chapter 1","Chapter 2","Chapter 3","Chapter 4","Chapter 5"};
     String[] desc = { "Forces","Vectors","Oscillations","Quantum Physics","Space"};
-    Integer[] imgid = {R.drawable.force,R.drawable.vect,R.drawable.pend,R.drawable.nma,R.drawable.galaxy};
+    Integer[] imgid = {R.drawable.a,R.drawable.b,R.drawable.c,R.drawable.d,R.drawable.e};
     RecyclerView chaptersView;
 
     @Override

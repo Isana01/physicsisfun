@@ -25,7 +25,7 @@ public class Harmonic extends FragmentActivity {
         transaction.replace(R.id.descriptionharmonic,scrollingFragment);
 //        transaction.replace(R.id.simulationFrame,blankFragment);
         FrameLayout simulationharmonic = findViewById(R.id.simulationharmonic);
-        FrameLayout de = findViewById(R.id.de);
+
 
 
 

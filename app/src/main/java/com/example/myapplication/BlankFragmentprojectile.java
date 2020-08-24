@@ -47,7 +47,7 @@ public class BlankFragmentprojectile extends PApplet {
         }
     }
 
-    public void keyPressed() {
+    public void mousePressed() {
         if (key == 'a' || key == 'A') {
             angle += 0.1;
         }
